@@ -63,7 +63,6 @@ begin
 
   HoraFinal := Now;
 
-
   Edit1.Text := FormatDateTime('hh:nn:ss.zz', HoraFinal-HoraInicial);
 end;
 
